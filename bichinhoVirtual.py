@@ -110,41 +110,41 @@ class BichinhoVirtual:
 
 # Instanciando o objeto
 
-bibi = BichinhoVirtual('', 0, 0, 0)
-# exibindo o objeto com os atributos iniciais
-print(bibi)
+# bibi = BichinhoVirtual('', 0, 0, 0)
+# # exibindo o objeto com os atributos iniciais
+# print(bibi)
 
-bibi = BichinhoVirtual('Bibi', 0, 0, 4)
-# humor
-print('Exibindo o humor do bichinho virtual')
-print(bibi.humor(), "\n\n")
+# bibi = BichinhoVirtual('Bibi', 0, 0, 4)
+# # humor
+# print('Exibindo o humor do bichinho virtual')
+# print(bibi.humor(), "\n\n")
 
-print("Alimentando o bichinho virtual")
-print(bibi.alimentar(3))
-print(bibi.alimentar(4), "\n\n")
+# print("Alimentando o bichinho virtual")
+# print(bibi.alimentar(3))
+# print(bibi.alimentar(4), "\n\n")
 
-print("Brincando com o bichinho virtual")
-print(bibi.brincar(3))
-print(bibi.brincar(3), "\n\n")
+# print("Brincando com o bichinho virtual")
+# print(bibi.brincar(3))
+# print(bibi.brincar(3), "\n\n")
 
-print("Exibindo o humor do bichinho virtual")
-# humor
-print(bibi.humor(), "\n\n")
+# print("Exibindo o humor do bichinho virtual")
+# # humor
+# print(bibi.humor(), "\n\n")
 
-# exibindo atributos do bichinho após sofrer alterações
-print(bibi)
+# # exibindo atributos do bichinho após sofrer alterações
+# print(bibi)
 
-print("ALTERANDO A FOME DO BICHINHO")
-print(bibi.setFome(8))
-print("ALTERANDO A SAÚDE DO BICHINHO")
-print(bibi.setSaude(7))
-print("ALTERANDO A IDADE DO BICHINHO")
-print(bibi.setIdade(6))
-print("EXIBINDO O HUMOR DO BICHINHO APÓS AS ALTERAÇÕES")
-print(bibi.humor())
-print("ALTERANDO O NOME DO BICHINHO")
-print(bibi.setNome('Bibizinha'), "\n")
+# print("ALTERANDO A FOME DO BICHINHO")
+# print(bibi.setFome(8))
+# print("ALTERANDO A SAÚDE DO BICHINHO")
+# print(bibi.setSaude(7))
+# print("ALTERANDO A IDADE DO BICHINHO")
+# print(bibi.setIdade(6))
+# print("EXIBINDO O HUMOR DO BICHINHO APÓS AS ALTERAÇÕES")
+# print(bibi.humor())
+# print("ALTERANDO O NOME DO BICHINHO")
+# print(bibi.setNome('Bibizinha'), "\n")
 
 
-print(bibi)
+# print(bibi)
 
