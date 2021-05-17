@@ -56,35 +56,35 @@ class BombaCombustivel:
 
 # Instanciando
 
-bomba_01 = BombaCombustivel('Gasolina', 5, 200)
-bomba_02 = BombaCombustivel('Diesel', 3, 200)
-bomba_03 = BombaCombustivel('Etanol', 4, 200)
+# bomba_01 = BombaCombustivel('Gasolina', 5, 200)
+# bomba_02 = BombaCombustivel('Diesel', 3, 200)
+# bomba_03 = BombaCombustivel('Etanol', 4, 200)
 
 
 
-print("ABASTECENDO POR VALOR EM DINHEIRO\n")
+# print("ABASTECENDO POR VALOR EM DINHEIRO\n")
 
-abastecerValor = bomba_01.abastecerPorValor(20)
-print("Litros abastecidos: ", abastecerValor, "L\n")
-print("Combustível restante na bomba: ", bomba_01.quantidadeCombustivel, "L\n\n\n")
+# abastecerValor = bomba_01.abastecerPorValor(20)
+# print("Litros abastecidos: ", abastecerValor, "L\n")
+# print("Combustível restante na bomba: ", bomba_01.quantidadeCombustivel, "L\n\n\n")
 
-print("ABASTECENDO POR QUANTIDADE EM LITROS\n")
+# print("ABASTECENDO POR QUANTIDADE EM LITROS\n")
 
-abastecerLitro = bomba_02.abastecerPorLitro(10)
-print("Valor do abastecimento: R$", abastecerLitro, "\n")
-print("Combustível restante na bomba: ", bomba_02.quantidadeCombustivel, "L\n\n\n")
+# abastecerLitro = bomba_02.abastecerPorLitro(10)
+# print("Valor do abastecimento: R$", abastecerLitro, "\n")
+# print("Combustível restante na bomba: ", bomba_02.quantidadeCombustivel, "L\n\n\n")
 
-print("ALTERANDO O VALOR DO LITRO DE COMBUSTÍVEL NA BOMBA\n")
+# print("ALTERANDO O VALOR DO LITRO DE COMBUSTÍVEL NA BOMBA\n")
 
-print("Valor do litro na bomba:  R$", bomba_01.valorLitro, "\n")
-bomba_01.alterarValor(8)
-print("Novo valor do litro na bomba:  R$", bomba_01.valorLitro, "\n\n\n")
+# print("Valor do litro na bomba:  R$", bomba_01.valorLitro, "\n")
+# bomba_01.alterarValor(8)
+# print("Novo valor do litro na bomba:  R$", bomba_01.valorLitro, "\n\n\n")
 
-print("ALTERANDO O TIPO DE COMBUSTÍVEL\n")
-bomba_01.alterarCombustivel('Etanol')
-print("O combustível disponível é: ", bomba_01.tipoCombustivel, "\n\n\n")
+# print("ALTERANDO O TIPO DE COMBUSTÍVEL\n")
+# bomba_01.alterarCombustivel('Etanol')
+# print("O combustível disponível é: ", bomba_01.tipoCombustivel, "\n\n\n")
 
-print("ALTERANDO A QUANTIDADE DE COMBUSTÍVEL ARMAZENADO NA BOMBA\n")
-bomba_01.alterarQuantidadeCombustivel(400)
-print("Combustível disponível na bomba atualizado para:", bomba_01.quantidadeCombustivel, "L")
+# print("ALTERANDO A QUANTIDADE DE COMBUSTÍVEL ARMAZENADO NA BOMBA\n")
+# bomba_01.alterarQuantidadeCombustivel(400)
+# print("Combustível disponível na bomba atualizado para:", bomba_01.quantidadeCombustivel, "L")
 
